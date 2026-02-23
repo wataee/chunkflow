@@ -1,6 +1,6 @@
-# Enterprise Document Ingestion & Vector Indexing Engine
+# ChunkFlow — Document Ingestion & PGVector Indexing Pipeline
 
-[![CI](https://github.com/wataee/enterprise-rag-pgvector/actions/workflows/ci.yml/badge.svg)](https://github.com/wataee/enterprise-rag-pgvector/actions/workflows/ci.yml)
+[![CI](https://github.com/wataee/chunkflow/actions/workflows/ci.yml/badge.svg)](https://github.com/wataee/chunkflow/actions/workflows/ci.yml)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
 [![PostgreSQL 16](https://img.shields.io/badge/PostgreSQL-16%20%2B%20pgvector-336791.svg)](https://github.com/pgvector/pgvector)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.109-009688.svg)](https://fastapi.tiangolo.com)
@@ -52,8 +52,8 @@ This service implements a structured ingestion workflow:
 * Python 3.11+
 
 ```bash
-git clone https://github.com/wataee/enterprise-rag-pgvector.git
-cd enterprise-rag-pgvector
+git clone https://github.com/wataee/chunkflow.git
+cd chunkflow
 
 cp .env.example .env
 # Edit .env with your OPENAI_API_KEY and database credentials
